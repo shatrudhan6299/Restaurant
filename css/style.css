@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.template{
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+.top_section{
+    height: 500px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.top_header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+.navbar{
+   
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sociol_icon{}
+.sociol_icon i{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
